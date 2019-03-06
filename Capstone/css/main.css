@@ -5,24 +5,6 @@ body, html {
 	height: auto;
 }
 
-form h6 {
-	font-size: 9pt;
-	font-family: sans-serif;
-	color: red;
-	font-weight: bold;
-}
-table {
-	font-family: 'Lora', serif;
-}
-footer {
-	margin-left: 10pt;
-}
-figcaption {
-	font-family: 'Lora', serif;
-	font-weight: bold;
-	color: #003976;
-	margin-left: 3pt;
-}
 /*Self created Containers*/
 .myContainer{
 	justify-content: center;
@@ -34,10 +16,9 @@ figcaption {
 }
 .myContainerLogin{
 	justify-content: center;
+	margin-left: 30%;
+	margin-right: 30%;
 	margin-top: 10%;
-	margin-right: 25%;
-	margin-left: 25%;
-	margin-bottom: 2%;
 	padding: 10px;
 	background-color: rgba(255,255,255,0.9);
 	box-shadow: 0 0px 30px 0 rgba(89, 167, 171, .4), 0 0px 30px 0 rgba(89, 167, 171, .4);
@@ -80,12 +61,6 @@ figcaption {
 .myContainer h3 {
 	font-family: 'Lora', serif;
 }
-/*DB Connection Message*/
-.status_msg {
-	font-family: 'Lora', serif;
-	text-align: right;
-	font-size: small;
-}
 /*Animations*/
 .elementToFadeInAndOut {
 	-webkit-animation: fadeinout 5s linear forwards;
@@ -109,176 +84,19 @@ figcaption {
 	to   { opacity: 1; }
 }
 /*General Styling*/
-h4.addWords {
-	margin-right: 15pt;
-	font-size: small;
-	float: right;
-}
-.elementToFadeIn h1 {
-	margin: 20pt;
-}
 .customhr{
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(59, 59, 59, 0), rgba(139, 139, 139, 0.75), rgba(59, 59, 59, 0));
 }
-.myPanel-title a {
-	font-family: 'Lora', serif;
-	padding: 0px;
-	margin: 0px;
-	text-decoration: none;
-}
-.myPanel-title a:link {
-    color: #59a7ab;
-    text-decoration: none;
-}
-.myPanel-title a:visited {
-    color: #59a7ab;
-    text-decoration: none;
-}
-.myPanel-title a:hover {
-    color: #3c7477;
-    text-decoration: none;
-}
-.myPanel-title a:active {
-    color: #59a7ab;
-    text-decoration: none;
-}
+
 #mybackground {
 	background: black url("../images/background.png") no-repeat center center fixed; 
+	background-color: grey;
     -webkit-background-size: cover;
     -moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-.myContent {
-	font-family: 'Lora', serif;
-	margin-left: 10pt;
-}
-.myContent1 {
-	margin-left: 10pt;
-}
-.myContent2 {
-	margin-left: 20pt;
-}
-.myContent h4 {
-	margin-left: 10pt;
-}
-#list h4 {
-	margin-left: 10pt;
-	color: #003976;
-}
-#list p {
-	margin-left: 15pt;
-	margin-right: 15pt;
-}
-#myNav li a {
-	font-family: 'Lora', serif;
-	font-size: 14pt;
-	color: #003976;
-	background-color: transparent;
-}
-#myNav li a:hover {
-	font-family: 'Lora', serif;
-	font-size: 14pt;
-	color: black;
-}
-#myNav div ul li.myLogo a:hover {
-	font-family: 'Lora', serif;
-	font-size: 14pt;
-	color: #003976;
-}
-.code {
-	background-color: transparent;
-	color: #842e9e;
-	font-size: 12pt;
-}
-.codeIndent {
-	margin-left: 10pt
-	
-}
-.codeContainer {
-	border-radius: 4px;
-	padding: 5pt;	
-	box-sizing: border-box;
-	width: 80%;
-	margin: 20pt;
-	background-color: rgba(255,255,255,0.5);
-	box-shadow: 0 0px 10px 0 rgba(128, 128, 128, .8), 0 0px 20px 0 rgba(128, 128, 128, .8);
-}
-.codeContainer img {
-	display:block;
-    margin: auto;
-    width: 100%;
-    height: auto;
-}
-.SQLcodeContainer {
-	border-radius: 4px;
-	padding: 5pt;	
-	box-sizing: border-box;
-	width: 80%;
-	margin: 20pt;
-	background-color: rgba(255,255,255,0.5);
-	box-shadow: 0 0px 10px 0 rgba(128, 128, 128, .8), 0 0px 20px 0 rgba(128, 128, 128, .8);
-}
-.contactContainer {
-	border-radius: 4px;
-	padding: 20pt;	
-	box-sizing: border-box;
-	width: 85%;
-	background-color: rgba(255, 51, 0, 0.6);
-	box-shadow: 0 0px 10px 0 rgba(255,255,255, .8), 0 0px 20px 0 rgba(255,255,255, .8);
-}
-.listContainer {
-	border-radius: 4px;
-	padding: 2pt;	
-	box-sizing: border-box;
-	width: 35%;
-	background-color: rgba(200,200,200,0.5);
-	box-shadow: 0 0px 10px 0 rgba(255,255,255, .8), 0 0px 20px 0 rgba(255,255,255, .8);
-}
-.listContainer {
-	margin-left: 10pt;
-	font-family: 'Lora', serif;
-	font-size: 12pt;
-	color: #003976;
-}
-.listContainer h4 {
-	margin-left: 8pt;
-	color: black;
-}
-.listContainer ul {
-	list-style-type: none;
-	padding: 0;	
-	margin-left: 8pt;
-}
-.listContainer ul li {
-	margin-top: 5pt;
-}
-.listContainer a li {
-	text-decoration: none;
-	color: #003976;
-}
-.listContainer a {
-	text-decoration: none;
-	color: #003976;
-}
-.listContainer a:visited {
-    color: #003976;
-    text-decoration: none;
-}
-.listContainer a:hover {
-    color: #003976;
-    text-decoration: none;
-    font-weight: bold;
-}
-.listContainer a:active {
-    color: #003976;
-    text-decoration: none;
-}
-.listContainer a li {
-	text-decoration: none;
-	color: #003976;
 }
 .special a {
 	text-decoration: none;
@@ -296,23 +114,6 @@ h4.addWords {
     color: #842e9e;
     text-decoration: none;
 }
-.special1 a {
-	text-decoration: none;
-	color: #003976;
-}
-.special1 a:visited {
-    color: #003976;
-    text-decoration: none;
-}
-.special1 a:hover {
-    color: #003976;
-    text-decoration: none;
-    font-weight: bold;
-}
-.special1 a:active {
-    color: #003976;
-    text-decoration: none;
-}
 #myLogo{
 	color: black;
 }
@@ -322,33 +123,15 @@ h4.addWords {
     display: block;
     margin: 0 auto;
 }
-.specialButton{
-	margin-top: 8pt;
-	font-family: 'Lora', serif;
-}
-#specialTable{
-	margin-top: 8pt;
-}
-.indexFooter {
-	font-family: 'Lora', serif;
-	text-align: left;
-	font-size: small;
-	font-weight: bold;
-	margin-left: 10pt;
-}
-.myPanelHeading {
-	font-family: 'Lora', serif;
-	font-size: small;
-}
 #stickyImg{
 	position: -webkit-sticky;
     position: sticky;
     top: 0;
     margin-left: 40pt;
 }
-#myBanner {
-	width:100%;
-}
 .mySpan{
 	color: #003976;
+}
+#myH2 {
+	font-family: 'Lora', serif;
 }
